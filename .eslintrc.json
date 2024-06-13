@@ -1,0 +1,12 @@
+{
+  "extends": ["next/babel", "next/core-web-vitals"],
+  "rules": {
+    "no-undef": "warn",
+    "no-undefined": "off",
+    "no-unused-expressions": "error",
+    "no-unreachable": "error",
+    "@typescript-eslint/consistent-type-definitions": "error",
+    "no-unused-vars": "off",
+    "@typescript-eslint/no-unused-vars": ["error"]
+  }
+}
